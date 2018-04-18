@@ -1,0 +1,59 @@
+---
+layout: post
+current: post
+cover:  assets/images/2018-04-19-atom.jpg
+navigation: True
+title: First blog
+date: 2018-04-19 00:25:00
+tags: atom simple-review
+class: post-template
+subclass: 'post atom simple-review'
+author: todevelop
+---
+
+Atom (text editor)
+
+아톰은 hackable text editor 이다.
+여러사람이 기여해서 개발하고 있는 에디터이다.
+
+최근에 아톰에 추가된 기능들을 살펴보게되었는데
+어마어마하다.
+단순한 메모장과 같은 텍스트 에디터가 아니다.
+그 이상이다.
+
+현재 릴리즈된 최신 버전은 1.25.1 이다.
+
+첫번깨 기능. Teletype
+사용자 여러명이서 한 project에서 코딩을 할 수 있도록 해주는 기능인데
+영상 보고 소름..
+하지만 실제로 쓰일 수 있는 곳이 어디가 있을까 생각을 해봤는데
+막상 떠오르지는 않았다.
+하지만 신박한 기술임에는 분명하다.
+해당 기술을 지원하는 다른 에디터도 있을까?
+
+
+두번째 기능. Atom IDE
+IDE-like 기능을 지원해준다는 것인데 아톰은 더이상 단순 텍스트 에디터라 할 수 없을 것 같다.
+ - context-aware auto-completion
+ - code navigation features such as an outline view
+ - go to definition
+ - find all references
+ - hover-to-reveal information
+ - diagnostics (errors and warning)
+ - document formatting
+
+IDE-like features 를 사용하려면 atom-ide-ui package 를 install 하여야 한다.
+ - TypeScript & JavaScript : ide-typescript
+ - Flow : ide-flowtype
+ - C# : ide-csharp
+ - Java : ide-java (java 8 runtime required)
+ - PHP : ode-php (PHP 7 runtime required)
+
+
+세번째 기능. GitHub for Atom
+ - create new branches, stage and commit
+ - push and pull
+ - resolve merge conflicts
+ - view pull requests and more
+
+Github for Atom 은 v1.18부터 core package 에 포함되었다.
