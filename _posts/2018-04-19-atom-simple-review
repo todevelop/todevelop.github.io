@@ -55,5 +55,14 @@ IDE-like features 를 사용하려면 atom-ide-ui package 를 install 하여야 
  - push and pull
  - resolve merge conflicts
  - view pull requests and more
+ (resolve merge conflicts 이 된다고해서..
+ merge 도 되는줄 알았는데 merge는 안되는것 같다;)
+
 
 Github for Atom 은 v1.18부터 core package 에 포함되었다.
+
+a few extra features ready to be discovered.
+ - Initialize repositories
+ - Clone repositories
+ - Discard changes
+ - Amend previous commit
